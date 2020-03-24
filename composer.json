@@ -25,7 +25,7 @@
         "flarum-extension": {
             "title": "FoF Real Time Date",
             "icon": {
-                "name": "fas fa-wifi",
+                "name": "fas fa-clock",
                 "backgroundColor": "#e74c3c",
                 "color": "#fff"
             }
