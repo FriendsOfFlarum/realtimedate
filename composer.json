@@ -1,0 +1,34 @@
+{
+    "name": "fof/realtimedate",
+    "description": "Makes humantime update in real time",
+    "keywords": [
+        "extension",
+        "flarum", "friends of flarum", "realtime"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Charlie Kern",
+            "email": "charlie.k@redevs.org",
+            "homepage": "https://redevs.org"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/friendsofflarum/realtimedate/issues",
+        "source": "https://github.com/friendsofflarum/realtimedate"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.11"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "FoF Real Time Date",
+            "icon": {
+                "name": "fas fa-wifi",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            }
+        }
+    }
+}
