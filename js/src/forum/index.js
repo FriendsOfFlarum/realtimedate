@@ -4,7 +4,7 @@ import humanTime from 'flarum/utils/humanTime'
 app.initializers.add('fof-realtimedate', () => {
     moment.relativeTimeThreshold('s', 60);
     moment.relativeTimeThreshold('ss', 10);
-    moment.relativeTimeThreshold('m', 89);
+    moment.relativeTimeThreshold('m', 60);
 
 
     function updateHumanTimes() {
