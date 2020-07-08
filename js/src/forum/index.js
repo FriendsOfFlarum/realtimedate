@@ -12,6 +12,10 @@ app.initializers.add('fof-realtimedate', () => {
             const $this = $(this);
             const ago = humanTime($this.attr('datetime'));
 
+            if ($this.children()) {
+              return;
+            }
+
             $this.html(ago);
         });
     }
