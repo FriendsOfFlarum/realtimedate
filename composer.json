@@ -7,6 +7,18 @@
     ],
     "type": "flarum-extension",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/friendsofflarum/realtimedate/issues",
+        "source": "https://github.com/friendsofflarum/realtimedate",
+        "forum": "https://discuss.flarum.org/d/23211"
+    },
+    "homepage": "https://friendsofflarum.org",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://opencollective.com/fof/donate"
+        }
+    ],
     "authors": [
         {
             "name": "Charlie Kern",
@@ -14,16 +26,13 @@
             "homepage": "https://redevs.org"
         }
     ],
-    "support": {
-        "issues": "https://github.com/friendsofflarum/realtimedate/issues",
-        "source": "https://github.com/friendsofflarum/realtimedate"
-    },
     "require": {
         "flarum/core": "^0.1.0-beta.14"
     },
     "extra": {
         "flarum-extension": {
             "title": "FoF Real Time Date",
+            "category": "feature",
             "icon": {
                 "name": "fas fa-clock",
                 "backgroundColor": "#e74c3c",
