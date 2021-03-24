@@ -1,13 +1,13 @@
-import app from 'flarum/app';
-import humanTime from 'flarum/utils/humanTime';
+import app from 'flarum/common/app';
+import humanTime from 'flarum/common/utils/humanTime';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import updateLocale from 'dayjs/plugin/updateLocale';
 
 app.initializers.add('fof-realtimedate', () => {
-    var config = {
+    const config = {
         thresholds: [
             { l: 's', r: 59, d: 'second' },
-            { l: 'ss', r: 10, },
+            { l: 'ss', r: 10 },
             { l: 'm', r: 1 },
             { l: 'mm', r: 59, d: 'minute' },
             { l: 'h', r: 1 },
@@ -39,8 +39,8 @@ app.initializers.add('fof-realtimedate', () => {
             M: 'a month',
             MM: '%d months',
             y: 'a year',
-            yy: '%d years'
-        }
+            yy: '%d years',
+        },
     });
 
     function updateHumanTimes() {
